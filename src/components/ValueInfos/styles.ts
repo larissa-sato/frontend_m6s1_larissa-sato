@@ -8,7 +8,7 @@ color: #3D75BB;
 font-size: 14px;
 width: 150px;
 padding: 3rem;
-height: 284px;
+height: 304px;
 
 h2{
     margin-top: 30px;

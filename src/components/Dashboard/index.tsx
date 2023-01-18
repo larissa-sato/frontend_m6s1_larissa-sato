@@ -14,7 +14,6 @@ const Main = () => {
 
                 <div className='divForm'>
                 <FormCalculator/>
-                <Button type="submit">Calcular</Button>
                 </div>
 
             <DivValue/>

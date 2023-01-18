@@ -1,8 +1,9 @@
 import Form from "./styles"
+import { Button } from "../Button/styles"
 
 const FormCalculator = () => {
     return(
-
+        <>
         <Form>
             <h3>Simule sua Antecipação</h3>  
             <span>Informe o valor da venda*</span>
@@ -13,7 +14,10 @@ const FormCalculator = () => {
 
             <span>Informe o percentual de MDR*</span>
             <input type="text" id="mdr"/>
+            
+            <Button type="submit">Calcular</Button>
         </Form>
+        </>
     )
 }
 
