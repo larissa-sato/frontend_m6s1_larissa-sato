@@ -1,12 +1,15 @@
 import './App.css';
-import Main from './components/Dashboard';
 import GlobalStyle from './styles/global'
+import Dashboard from './components/Dashboard';
+import { CalculateProvider } from './context/calculateContext';
 
 function App() {
   return (
     <>
-    <GlobalStyle/>
-    <Main/>
+    <CalculateProvider>
+      <GlobalStyle/>
+      <Dashboard/>
+    </CalculateProvider>
     </>
   );
 }

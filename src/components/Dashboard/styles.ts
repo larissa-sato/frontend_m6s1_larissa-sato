@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+export const Container = styled.div`
   position: fixed;
   z-index: 2;
   display: flex;
@@ -23,5 +23,3 @@ const Container = styled.div`
     color: #fff;
   }
 `;
-
-export default Container;
