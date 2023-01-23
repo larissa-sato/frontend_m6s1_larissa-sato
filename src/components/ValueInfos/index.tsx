@@ -4,10 +4,10 @@ import { CalculateContext } from '../../context/calculateContext';
 
 
 const DivValue = () => {
-    
+
     const {values} = useContext(CalculateContext)
     let newValue = Object.values(values)
-         
+    
     return(
         <ValueDiv>
             <>
